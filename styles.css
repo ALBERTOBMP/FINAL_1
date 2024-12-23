@@ -97,3 +97,29 @@ header nav ul li a {
     max-width: 100%;
     height: auto;
 }
+
+/* Testimonios */
+.testimonios {
+    padding: 2rem 0;
+    background: #e9ecef;
+    text-align: center;
+}
+
+.testimonios p {
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
