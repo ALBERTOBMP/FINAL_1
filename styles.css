@@ -42,3 +42,58 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+/* Jumbotron */
+.jumbotron {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 2rem 0;
+}
+
+.jumbotron h1 {
+    margin-bottom: 1rem;
+}
+
+.jumbotron form {
+    margin-top: 1rem;
+}
+
+.jumbotron input[type="email"] {
+    padding: 0.5rem;
+    width: 300px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.jumbotron button {
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+}
+
+/* Catálogo */
+.catalogo {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+.catalogo .grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.catalogo article {
+    flex: 1 1 calc(33.333% - 20px);
+    background: red;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.catalogo img {
+    max-width: 100%;
+    height: auto;
+}
